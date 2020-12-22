@@ -1,0 +1,29 @@
+@keyframes movingLine {
+  50% {
+    transform: translateX(900%);
+  }
+}
+
+.topic-button {
+  padding: 8px 16px;
+  background: gray;
+  color: white;
+  animation: movingLine ease-out infinite;
+}
+
+.topic-button:hover {
+  animation-play-state: paused;
+  background: lightgray;
+}
+
+.topic-button--fast {
+  animation-duration: 6s;
+}
+
+.topic-button--med {
+  animation-duration: 10s;
+}
+
+.topic-button--slow {
+  animation-duration: 15s;
+}

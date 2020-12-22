@@ -1,0 +1,30 @@
+.topic-body {
+  padding-left: 10em;
+  padding-top: 0.7em;
+  display: flex;
+}
+
+.button {
+  background: none;
+  border: none;
+  border-right: 1px solid gray;
+  font-size: 1em;
+  cursor: pointer;
+  width: 3em;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: rgba(1, 1, 1, 0.3);
+}
+
+.link {
+  display: block;
+  padding-left: 1em;
+  min-width: 30em;
+  transition: background 0.3s;
+}
+
+.link:hover {
+  background: rgba(1, 1, 1, 0.3);
+}
